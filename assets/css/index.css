@@ -1,0 +1,498 @@
+.zoneCarousel::hover
+{
+    background-color: black;
+}
+
+.image
+{
+    height: 450px;
+}
+
+.carousel-caption p, h1
+{
+    color: black;
+}
+
+.carousel-caption p
+{
+    font-size: large;
+    font-weight: bold;
+}
+
+/***************************** SECTION IDEES AVENTURES **********************************/
+.imgAvtcard
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.AvtCard
+{
+    border: none;
+}
+
+.btn
+ {
+    border: 0.1rem solid #10221b;
+    color: #10221b;
+    cursor: pointer;
+    background: none;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.AvtCard:hover .btn
+{
+    border-color: #fff;
+}
+
+.btn:hover 
+{
+
+    background: #10221b;
+    color: #fff;
+}
+
+.ideeDaventure
+{
+    padding: 5rem 9%;
+}
+
+
+
+/*************************** SECTION EXPERIENCE ******************************/
+.experience
+{
+    background: #eee;
+    gap: 2rem;
+  }
+
+.experience .image 
+{
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  }
+  
+  .experience .image img 
+  {
+    width: 100%;
+    height: 300px;
+    box-shadow: 2rem 2rem  rgba(0, 0, 0, 0.1);
+  }
+
+  
+
+
+  /**************************** SECTION PRODUITS ***********************************/
+
+.prod
+  {
+    border: 0.2rem solid #10221b;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  
+.prod:hover .imageprod .icons 
+  {
+    transform: translateY(0);
+  }
+  
+.prod .imageprod 
+ {
+   position: relative;
+   overflow: hidden;/**/
+    height: 15rem;
+    width: 100%;
+  }
+  
+  .prod .imageprod img
+   {
+    height: 100%;
+    width: 100%;
+   }
+  
+  .prod .imageprod .icons 
+  {
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
+    z-index: 10;
+    transform: translateY(7rem);
+  }
+  
+  .prod .imageprod .icons a 
+  {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background: #10221b;
+    color: #fff;
+  }
+  
+.prod .imageprod .icons a:hover 
+  {
+    background: #219150;
+  }
+
+  .prod .card-body  h3
+   {
+    font-size: 1.5rem;
+    color: #10221b;
+  }
+  
+  .prod .card-body .price
+   {
+    padding: 1rem 0;
+    padding-top: .5rem;
+    font-size: 1rem;
+    color: #219150;
+  }
+  
+  .prod .card-body  .stars i 
+  {
+    font-size: 1.2rem;
+    color: #10221b;
+  }
+
+
+
+
+/************************ SECTION OFFRE ************************/
+  .offres
+  {
+    background: #eee;
+  }
+  
+  
+  .offres .container .card 
+  {
+    text-align: center;
+    background: #fff;
+    border: 0.2rem solid #10221b;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .offres .container .card:hover 
+  {
+    background: #10221b;
+  }
+  
+  .offres .container .card:hover .card-body > * 
+  {
+    color: #fff;
+  }
+  
+  .offres .container .card:hover .btn 
+  {
+    border-color: #fff;
+  }
+  
+  .offres .container .card:hover .btn:hover 
+  {
+    background: #fff;
+    color: #10221b;
+  }
+  
+  .offres .container .card .imageoffre 
+  {
+    height: 10rem;
+    overflow: hidden;
+    padding: 2rem;
+    padding-bottom: 0;
+    border-radius: .5rem;
+  }
+  
+  .offres .container .card .imageoffre img 
+  {
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+  }
+  
+  .offres .container .card .card-body 
+  {
+    padding: 2rem;
+  }
+  
+  .offres .container .card .card-body h3 
+  {
+    font-size: 2rem;
+    color: #10221b;
+  }
+  
+  
+  .offres .container .card .card-body .price 
+  {
+    font-size: 1.5rem;
+    color: #219150;
+  }
+
+
+
+/*******************FLECHES CAROUSEL*******************/
+.carousel-control-next-icon,.carousel-control-prev-icon 
+{
+  filter: invert(1);
+}
+
+.carousel-control-next-icon 
+{
+  margin-left: 152px;
+}
+
+.carousel-control-prev-icon 
+{
+  margin-right: 150px;
+}
+
+
+/**********************AVIS*******************/
+
+.avis
+ {
+    background: #eee;
+ }
+ 
+ .avis .card
+ {
+    padding:0.5rem;
+    border:.1rem solid #222;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    user-select: none;
+ }
+ 
+ .avis  .stars
+ {
+    padding-bottom: .5rem;
+ }
+ 
+ .avis .stars i
+ {
+    font-size: 1.7rem;
+    color:#8e44ad;
+ }
+ 
+ .avis p
+ {
+    font-size: 1rem;
+    color:#777;
+    line-height: 2;
+    padding:0.5rem 0;
+ }
+ 
+ .avis h3
+ {
+    font-size: 1.5rem;
+    color:#222;
+ }
+ 
+ .avis span
+ {
+    font-size: 1rem;
+    color:#8e44ad;
+    display: block;
+ }
+ 
+ .avis img
+ {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+ }
+
+ .avis
+ {
+    padding: 4%;
+ }
+
+
+ /**************SERVICES*******************/
+
+ .services 
+  {
+    background: #eee;
+  }
+  
+  
+  
+  .services .container .card 
+  {
+    text-align: center;
+    padding: 1rem;
+    border: 0.2rem solid #10221b;
+    border-radius: 20px;
+    background: #fff;
+  }
+  
+  .services .container .card:hover 
+  {
+    background: #10221b;
+  }
+  
+  .services .container .card:hover img 
+  {
+         filter: invert(1);
+  }
+  
+  .services .container .card:hover p 
+  {
+    color: #fff;
+  }
+  
+  .services .container .card:hover .btn 
+  {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .services .container .card:hover .btn:hover 
+  {
+    background: #fff;
+    color: #10221b;
+  }
+  
+  .services .container .card img 
+  {
+    height: 6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .services .container .card h5 
+  {
+    font-size: 1rem;
+    color: #219150;
+  }
+  
+  .services .container .card p 
+  {
+    font-size: 1rem;
+    color: #10221b;
+    padding: 1rem 0;
+    line-height: 2;
+  }
+
+  .serv
+  {
+    margin: 5px;
+  }
+
+  /************** Newlester***********************/
+
+  .newsletter 
+  {
+    background: #eee;
+  }
+  
+  .newsletter .content 
+  {
+    max-width: 50rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  
+  .newsletter .content p 
+  {
+    font-size: 1.2rem;
+    line-height: 2;
+    color: #10221b;
+  }
+  
+  .newsletter .content form 
+  {
+    margin-top: 2rem;
+    background: #fff;
+    border-radius: 5rem;
+    border: 0.2rem solid #10221b;
+    padding: .7rem;
+    display: flex;
+  }
+  
+  .newsletter .content form .email 
+  {
+    border: none;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.5rem;
+    color: #10221b;
+    padding: 0 1.3rem;
+  }
+  
+  .newsletter .content form .btn 
+  {
+    margin-top: 0;
+    border-radius: 5rem;
+    background: #10221b;
+    color: #fff;
+  }
+  
+  .newsletter .content form .btn:hover 
+  {
+    background: none;
+    color: #10221b;
+  }
+  
+  /*************   FOOTER  *************/
+
+  footer
+  {
+    background:  url("../img/footer.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ 
+ 
+
+ 
+ .bas .u h3
+ {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+ }
+ 
+ .bas .u a
+ {
+    
+    font-size: 1.1rem;
+    padding-bottom: 1.1rem;
+    display: block;
+ }
+ 
+ .bas .u a i
+ {
+    color:#8e44ad;
+    padding-right: .5rem;
+    transition: .2s linear;
+ }
+ 
+ .bas .u a:hover i
+ {
+    padding-right: 1.5rem;
+ }
+ 
+ footer .credit
+ {
+    text-align: center;
+    padding-top: 1.8rem;
+    margin-top: 1.8rem;
+    border-top: .1rem solid #fff9;
+    font-size: 2rem;
+    color:#fff;
+ }
+ 
+ footer .credit span
+ {
+    color:#8e44ad;
+ }
+
+
+  

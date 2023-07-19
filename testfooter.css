@@ -1,0 +1,47 @@
+.footer
+{
+    background-color: azure;
+}
+
+i
+{
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:blueviolet ;
+}
+
+.fa
+{
+    text-align: center;
+}
+
+
+span
+{
+    color: blueviolet;
+}
+
+.contenu
+{
+    padding-top: 5% ;
+}
+
+.contacter
+ {
+    text-align: center;
+    color: blueviolet;
+ }
+
+ .btn
+ {
+    font-size: 20px;
+    border: 0.1rem solid blueviolet;
+ }
+
+ .btn:hover
+ {
+    background-color: blueviolet;
+    color: black;
+ }
